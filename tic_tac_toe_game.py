@@ -2,13 +2,6 @@ import os
 def instructions():
     print('''
           Hello to tic tac toe game!
-          each player in his turn will choose a number from(1:9)
-          to select positin on the board.
-          player 1 alwaus start first
-          
-          this is the table you will play on and the positions arranged like
-          the layout of a phone keypad :)
-          By default, player 1 goes first.
           '''
          )   
     print_table(range(1,10),0)
